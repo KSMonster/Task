@@ -1,0 +1,6 @@
+@Task.Server_HostAddress = http://localhost:5224
+
+GET {{Task.Server_HostAddress}}/api/Books/
+Accept: application/json
+
+###
